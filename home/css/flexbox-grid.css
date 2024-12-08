@@ -18,7 +18,17 @@ main {
     flex: 2;
     background-color: #fff;
     padding: 20px;
+    flex-wrap: wrap;
+    background-color: #f1e3a4;
 }
+
+.main-content > div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
 
 .sidebar {
     flex: 1;
