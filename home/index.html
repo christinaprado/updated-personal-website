@@ -1,58 +1,71 @@
-<!DOCTYPE html>    
-<html>    
-<head>    
-<title>Page Title</title>    
-<style>
-  body {
-    background-color: #f1e3a4;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <title>Christina Prado - Personal Profile</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <header>
+    Christina Prado - Personal Profile
+  </header>
 
-  h1 {
-    color: white;
-    text-align: center;
-  }
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#experience">IT Experiences</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#goals">Goals</a>
+    <a href="#resources">Resources</a>
+  </nav>
 
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-</style>
-</head>    
-<body>  
+  <h1>Welcome to Me!</h1>
 
-<h1>Personal Profile Web page</h1>   
-<p> 
+  <div class="container">
+    <div id="about" class="card">
+      <h2>About Me</h2>
+      <p>Hi! My name is Christina Prado, I am a second-year college student in Asia Pacific College taking the course BSIT-MI.</p>
+    </div>
 
-<br>Hi! My name is Christina Prado, I am a second-year college student in Asia Pacific College taking the course BSIT-MI. 
+    <div id="education" class="card">
+      <h2>Education & Achievements</h2>
+      <p>SIT-MI, Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</p>
+    </div>
 
-<br>BSIT-MI, Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies.   
+    <div id="experience" class="card">
+      <h2>IT Experiences</h2>
+      <p>I first learned how to code using HTML when I was in 9th grade and I kind've liked it, and that encouraged me to take IT.</p>
+    </div>
 
-<br>When it comes to my experience with IT, I first learned to code using HTML when I was in 9th grade and I really enjoyed it,
-and that encouraged me to take IT. I also really enjoyed creating an ERD Diagaram on our DATAMA1 subject.   
+    <div id="hobbies" class="card">
+      <h2>Hobbies & Interests</h2>
+      <p>I like to walk and explore, eating out with friends, cleaning, organizing, and spending time with my furbabies.</p>
+    </div>
 
-<br>My hobbies are exploring, walking, eating out with friends, cleaning, organizing, and interacting with my dogs.
+    <div id="goals" class="card">
+      <h2>Goals in Life/Dreams</h2>
+      <p>To achieve a lot of good things in life.</p>
+    </div>
 
-<br>My goals in life are having multiple streams of income, be financialy stable, and living a long healthy life.
+    <h1>Gallery</h1>
+    <div class="picture">
+      <img src="images/473234672_392367817272021_8414309603416098747_n.jpg" alt="Picture of me">
+    </div>
 
-<img src="images/465808995_516652884729127_1468184555870599635_n.jpg">  
+    <div class="picture">
+      <img src="images/472809345_822711613314671_8646975178640092817_n.jpg" alt="Picture of me">
+    </div>
+  </div>
 
-<br>Here is a picture of me during my trip to Doha, Qatar.
-
-</p>
-
-<h2>Demo External JavaScript</h2>
-
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="myFunction()">Function1</button>
-<br>
-<button type="button" onclick="myFunction2()">Function2</button>
-
-<p>This example links to "myScript.js".</p>
-<p>(myFunction is stored in "myScript.js")</p>
-
-<script src="js/myScript.js"></script>
-
-
-</body>    
+  <div id="resources" class="card">
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+    </ul>
+  </div>
+</body>
 </html>
